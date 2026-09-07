@@ -3,238 +3,1055 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Animal Behavior Detection — an open-source project for detecting and analyzing animal behavior from video.">
-  <title>Animal Behavior Detection</title>
+  <meta name="description" content="AnimalTrackLens — AI-powered vision for observing, tracking, and understanding animal behavior.">
+  <title>AnimalTrackLens — AI Animal Behavior</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <header class="site-header">
     <nav class="nav container">
-      <a class="brand" href="#top">Animal Behavior Detection</a>
+
+      <a class="brand" href="#top">
+        AnimalTrackLens
+      </a>
+
       <div class="nav-links">
+
         <a href="#project">Project</a>
+
         <a href="#pipeline">Pipeline</a>
+
         <a href="#behaviors">Behaviors</a>
+
         <a href="#research">Research</a>
+
         <a href="#contribute">Contribute</a>
-        <a class="github-link" href="https://github.com/ourprojectname" target="_blank" rel="noopener">GitHub ↗</a>
+
+        <a
+          class="github-link"
+          href="https://github.com/dunkin2025/AnimalTrackLens"
+          target="_blank"
+          rel="noopener"
+        >
+          AnimalTrackLens ↗
+        </a>
+
       </div>
-      <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <button
+        class="menu-button"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
     </nav>
   </header>
 
+
   <main id="top">
+
+    <!-- HERO -->
+
     <section class="hero">
+
       <div class="container hero-grid">
+
         <div class="hero-copy">
-          <p class="eyebrow">OPEN-SOURCE • AI • WILDLIFE RESEARCH</p>
-          <h1>From seeing an animal to <span>understanding its behavior.</span></h1>
-          <p class="hero-text">
-            An open project exploring computer vision and AI for detecting, tracking,
-            and analyzing observable animal behavior from video.
+
+          <p class="eyebrow">
+            AI • COMPUTER VISION • ANIMAL BEHAVIOR
           </p>
+
+          <h1>
+            From seeing an animal to
+            <span>understanding its behavior.</span>
+          </h1>
+
+          <p class="hero-text">
+            AnimalTrackLens explores computer vision and artificial intelligence
+            for detecting, tracking, and analyzing observable animal behavior
+            from video.
+          </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="https://github.com/ourprojectname" target="_blank" rel="noopener">View on GitHub</a>
-            <a class="button secondary" href="#pipeline">See how it works</a>
+
+            <a
+              class="button primary"
+              href="https://github.com/dunkin2025/AnimalTrackLens"
+              target="_blank"
+              rel="noopener"
+            >
+              View AnimalTrackLens
+            </a>
+
+            <a
+              class="button secondary"
+              href="#pipeline"
+            >
+              See how it works
+            </a>
+
           </div>
+
           <div class="status-row">
-            <span><i></i> Research project</span>
-            <span>Human + AI</span>
-            <span>Video → Data</span>
+
+            <span>
+              <i></i>
+              AI research & development
+            </span>
+
+            <span>
+              Human + AI
+            </span>
+
+            <span>
+              Video → Data
+            </span>
+
           </div>
+
         </div>
+
+
+        <!-- DEMO PANEL -->
 
         <div class="detection-card">
+
           <div class="camera-top">
-            <span>LIVE CAMERA / DEMO</span>
-            <span class="live-dot">● LIVE</span>
+
+            <span>
+              ANIMALTRACKLENS / DEMO
+            </span>
+
+            <span class="live-dot">
+              ● LIVE
+            </span>
+
           </div>
+
+
           <div class="camera-frame">
+
             <div class="scan-line"></div>
-            <div class="animal-shape">🐘</div>
+
+            <div class="animal-shape">
+              🐘
+            </div>
+
             <div class="bounding-box">
-              <span>ELEPHANT</span>
-              <strong>94%</strong>
+
+              <span>
+                ELEPHANT
+              </span>
+
+              <strong>
+                94%
+              </strong>
+
             </div>
-            <div class="camera-meta">08:24:31 · FRAME 018492</div>
+
+            <div class="camera-meta">
+              08:24:31 · FRAME 018492
+            </div>
+
           </div>
+
+
           <div class="detection-result">
+
             <div>
-              <small>DETECTED BEHAVIOR</small>
-              <strong>DRINKING</strong>
+
+              <small>
+                DETECTED BEHAVIOR
+              </small>
+
+              <strong>
+                DRINKING
+              </strong>
+
             </div>
+
+
             <div class="confidence">
-              <small>CONFIDENCE</small>
-              <strong>94%</strong>
+
+              <small>
+                CONFIDENCE
+              </small>
+
+              <strong>
+                94%
+              </strong>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- PROJECT -->
 
     <section id="project" class="section">
+
       <div class="container">
+
         <div class="section-heading">
-          <p class="eyebrow">THE PROJECT</p>
-          <h2>Let computers handle the hours of video.</h2>
-          <p>
-            Wildlife cameras, zoo webcams, and research cameras can produce enormous
-            amounts of footage. The goal is to help researchers find and quantify
-            meaningful observations without manually reviewing every frame.
+
+          <p class="eyebrow">
+            THE PROJECT
           </p>
+
+          <h2>
+            Let computers handle the hours of video.
+          </h2>
+
+          <p>
+            Wildlife cameras, zoo webcams, research cameras, domestic-animal
+            cameras, and commercial monitoring systems can produce enormous
+            amounts of footage. AnimalTrackLens aims to help turn that video
+            into structured behavioral information.
+          </p>
+
         </div>
+
 
         <div class="feature-grid">
+
+
           <article class="feature-card">
-            <div class="icon">◉</div>
-            <h3>Animal Detection</h3>
-            <p>Locate animals in video and identify the species when the model supports it.</p>
+
+            <div class="icon">
+              ◉
+            </div>
+
+            <h3>
+              Animal Detection
+            </h3>
+
+            <p>
+              Locate animals in video and identify the species when the model
+              supports it.
+            </p>
+
           </article>
+
+
           <article class="feature-card">
-            <div class="icon">↝</div>
-            <h3>Tracking</h3>
-            <p>Follow animals across frames and measure movement, location, and interactions.</p>
+
+            <div class="icon">
+              ↝
+            </div>
+
+            <h3>
+              Tracking
+            </h3>
+
+            <p>
+              Follow animals across frames and measure movement, location,
+              activity, and interactions.
+            </p>
+
           </article>
+
+
           <article class="feature-card">
-            <div class="icon">⌁</div>
-            <h3>Behavior Detection</h3>
-            <p>Classify observable activities such as eating, walking, resting, and social interaction.</p>
+
+            <div class="icon">
+              ⌁
+            </div>
+
+            <h3>
+              Behavior Detection
+            </h3>
+
+            <p>
+              Classify observable activities such as eating, walking,
+              resting, drinking, and social interaction.
+            </p>
+
           </article>
+
+
           <article class="feature-card">
-            <div class="icon">▥</div>
-            <h3>Behavior Analysis</h3>
-            <p>Convert observations into timelines and structured data for research and review.</p>
+
+            <div class="icon">
+              ▥
+            </div>
+
+            <h3>
+              Behavioral Analytics
+            </h3>
+
+            <p>
+              Convert observations into timelines and structured data for
+              research, monitoring, and review.
+            </p>
+
           </article>
+
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- PIPELINE -->
 
     <section id="pipeline" class="section dark-section">
+
       <div class="container">
+
         <div class="section-heading light">
-          <p class="eyebrow">THE PIPELINE</p>
-          <h2>Video in. Behavioral data out.</h2>
-          <p>
-            The system is designed as a sequence of measurable stages rather than
-            treating animal behavior as a single black-box prediction.
+
+          <p class="eyebrow">
+            ANIMALTRACKLENS PIPELINE
           </p>
+
+          <h2>
+            Video in. Behavioral data out.
+          </h2>
+
+          <p>
+            The system is designed as a sequence of measurable stages,
+            from visual detection through tracking and behavior analysis.
+          </p>
+
         </div>
+
 
         <div class="pipeline">
-          <div class="pipeline-step"><b>01</b><span>VIDEO</span><small>Camera or authorized footage</small></div>
-          <div class="arrow">→</div>
-          <div class="pipeline-step"><b>02</b><span>DETECTION</span><small>Find animals in frames</small></div>
-          <div class="arrow">→</div>
-          <div class="pipeline-step"><b>03</b><span>TRACKING</span><small>Follow individuals over time</small></div>
-          <div class="arrow">→</div>
-          <div class="pipeline-step"><b>04</b><span>BEHAVIOR</span><small>Classify observable actions</small></div>
-          <div class="arrow">→</div>
-          <div class="pipeline-step"><b>05</b><span>DATA</span><small>Timeline and research output</small></div>
+
+
+          <div class="pipeline-step">
+
+            <b>
+              01
+            </b>
+
+            <span>
+              VIDEO
+            </span>
+
+            <small>
+              Camera or authorized footage
+            </small>
+
+          </div>
+
+
+          <div class="arrow">
+            →
+          </div>
+
+
+          <div class="pipeline-step">
+
+            <b>
+              02
+            </b>
+
+            <span>
+              DETECTION
+            </span>
+
+            <small>
+              Find animals in frames
+            </small>
+
+          </div>
+
+
+          <div class="arrow">
+            →
+          </div>
+
+
+          <div class="pipeline-step">
+
+            <b>
+              03
+            </b>
+
+            <span>
+              TRACKING
+            </span>
+
+            <small>
+              Follow individuals over time
+            </small>
+
+          </div>
+
+
+          <div class="arrow">
+            →
+          </div>
+
+
+          <div class="pipeline-step">
+
+            <b>
+              04
+            </b>
+
+            <span>
+              BEHAVIOR
+            </span>
+
+            <small>
+              Classify observable actions
+            </small>
+
+          </div>
+
+
+          <div class="arrow">
+            →
+          </div>
+
+
+          <div class="pipeline-step">
+
+            <b>
+              05
+            </b>
+
+            <span>
+              DATA
+            </span>
+
+            <small>
+              Timeline and analytical output
+            </small>
+
+          </div>
+
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- BEHAVIORS -->
 
     <section id="behaviors" class="section">
+
       <div class="container two-column">
+
         <div>
-          <p class="eyebrow">BEHAVIOR CATEGORIES</p>
-          <h2>Start with behaviors we can observe.</h2>
-          <p>
-            Behavior definitions should be species-specific and scientifically
-            validated. The project can begin with simple, visually distinguishable
-            behaviors and expand as better datasets become available.
+
+          <p class="eyebrow">
+            BEHAVIOR CATEGORIES
           </p>
+
+          <h2>
+            Start with behaviors we can observe.
+          </h2>
+
+          <p>
+            Animal behavior is species-specific. AnimalTrackLens can begin
+            with visually distinguishable behaviors and expand as better
+            datasets and validation become available.
+          </p>
+
         </div>
+
+
         <div class="behavior-list">
-          <span>Walking</span><span>Running</span><span>Eating</span><span>Drinking</span>
-          <span>Resting</span><span>Sleeping</span><span>Grooming</span><span>Playing</span>
-          <span>Social interaction</span><span>Chasing</span><span>Aggression</span><span>Nesting</span>
-          <span>Swimming</span><span>Climbing</span><span>Other / uncertain</span>
+
+          <span>Walking</span>
+
+          <span>Running</span>
+
+          <span>Eating</span>
+
+          <span>Drinking</span>
+
+          <span>Resting</span>
+
+          <span>Sleeping</span>
+
+          <span>Grooming</span>
+
+          <span>Playing</span>
+
+          <span>Social interaction</span>
+
+          <span>Chasing</span>
+
+          <span>Aggression</span>
+
+          <span>Nesting</span>
+
+          <span>Swimming</span>
+
+          <span>Climbing</span>
+
+          <span>Other / uncertain</span>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- TIMELINE -->
 
     <section class="section timeline-section">
+
       <div class="container">
+
         <div class="section-heading">
-          <p class="eyebrow">EXAMPLE OUTPUT</p>
-          <h2>A behavioral timeline from continuous video.</h2>
+
+          <p class="eyebrow">
+            EXAMPLE OUTPUT
+          </p>
+
+          <h2>
+            A behavioral timeline from continuous video.
+          </h2>
+
         </div>
+
+
         <div class="timeline-card">
-          <div class="timeline-row"><time>08:21:03</time><span class="bar walking"></span><b>Walking</b><em>42 sec</em></div>
-          <div class="timeline-row"><time>08:22:17</time><span class="bar drinking"></span><b>Drinking</b><em>2 min 14 sec</em></div>
-          <div class="timeline-row"><time>08:24:31</time><span class="bar social"></span><b>Social interaction</b><em>38 sec</em></div>
-          <div class="timeline-row"><time>08:26:09</time><span class="bar resting"></span><b>Resting</b><em>5 min 03 sec</em></div>
+
+
+          <div class="timeline-row">
+
+            <time>
+              08:21:03
+            </time>
+
+            <span class="bar walking"></span>
+
+            <b>
+              Walking
+            </b>
+
+            <em>
+              42 sec
+            </em>
+
+          </div>
+
+
+          <div class="timeline-row">
+
+            <time>
+              08:22:17
+            </time>
+
+            <span class="bar drinking"></span>
+
+            <b>
+              Drinking
+            </b>
+
+            <em>
+              2 min 14 sec
+            </em>
+
+          </div>
+
+
+          <div class="timeline-row">
+
+            <time>
+              08:24:31
+            </time>
+
+            <span class="bar social"></span>
+
+            <b>
+              Social interaction
+            </b>
+
+            <em>
+              38 sec
+            </em>
+
+          </div>
+
+
+          <div class="timeline-row">
+
+            <time>
+              08:26:09
+            </time>
+
+            <span class="bar resting"></span>
+
+            <b>
+              Resting
+            </b>
+
+            <em>
+              5 min 03 sec
+            </em>
+
+          </div>
+
+
         </div>
-        <p class="note">Illustrative data only — not a scientific measurement.</p>
+
+
+        <p class="note">
+          Illustrative data only — not a scientific measurement.
+        </p>
+
       </div>
+
     </section>
+
+
+    <!-- RESEARCH -->
 
     <section id="research" class="section research-section">
+
       <div class="container">
+
         <div class="section-heading">
-          <p class="eyebrow">RESEARCH & VALIDATION</p>
-          <h2>AI predictions need human verification.</h2>
-          <p>
-            The project is not intended to replace zoologists or animal behavior
-            researchers. Human annotations and expert review are essential for
-            defining behaviors, training models, and evaluating results.
+
+          <p class="eyebrow">
+            RESEARCH & VALIDATION
           </p>
+
+          <h2>
+            AI predictions need human verification.
+          </h2>
+
+          <p>
+            AnimalTrackLens is intended to assist animal behavior researchers,
+            zoologists, conservation teams, animal welfare specialists,
+            and other professionals. Human annotations and expert review
+            remain essential for defining behaviors, training models,
+            and evaluating results.
+          </p>
+
         </div>
+
+
         <div class="metrics-grid">
-          <div><strong>Accuracy</strong><span>How often classifications are correct</span></div>
-          <div><strong>Precision</strong><span>How reliable positive detections are</span></div>
-          <div><strong>Recall</strong><span>How many relevant events are detected</span></div>
-          <div><strong>F1 score</strong><span>Balance between precision and recall</span></div>
+
+
+          <div>
+
+            <strong>
+              Accuracy
+            </strong>
+
+            <span>
+              How often classifications are correct
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <strong>
+              Precision
+            </strong>
+
+            <span>
+              How reliable positive detections are
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <strong>
+              Recall
+            </strong>
+
+            <span>
+              How many relevant events are detected
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <strong>
+              F1 score
+            </strong>
+
+            <span>
+              Balance between precision and recall
+            </span>
+
+          </div>
+
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- APPLICATIONS -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            APPLICATIONS
+          </p>
+
+          <h2>
+            One technology. Many animal environments.
+          </h2>
+
+          <p>
+            The same core computer-vision technology can be adapted to
+            different species, environments, and operational requirements.
+          </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+          <article class="feature-card">
+
+            <div class="icon">
+              ◌
+            </div>
+
+            <h3>
+              Wildlife
+            </h3>
+
+            <p>
+              Observe wildlife activity, movement, interactions, and
+              environmental responses.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="icon">
+              ◍
+            </div>
+
+            <h3>
+              Zoos & Conservation
+            </h3>
+
+            <p>
+              Support long-duration observation and behavioral monitoring
+              of animals under human care.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="icon">
+              ◇
+            </div>
+
+            <h3>
+              Domestic Animals
+            </h3>
+
+            <p>
+              Explore behavioral monitoring for companion and domestic
+              animals.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card">
+
+            <div class="icon">
+              ▣
+            </div>
+
+            <h3>
+              Commercial & Research
+            </h3>
+
+            <p>
+              Develop applications for livestock, aquaculture, research,
+              animal welfare, and other commercial environments.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ROADMAP -->
 
     <section class="section roadmap-section">
+
       <div class="container">
+
         <div class="section-heading">
-          <p class="eyebrow">ROADMAP</p>
-          <h2>Build it step by step.</h2>
+
+          <p class="eyebrow">
+            ROADMAP
+          </p>
+
+          <h2>
+            Build it step by step.
+          </h2>
+
         </div>
+
+
         <div class="roadmap">
-          <div class="roadmap-item done"><span>01</span><div><b>Proof of concept</b><p>Video → animal detection → tracking → basic behavior.</p></div></div>
-          <div class="roadmap-item"><span>02</span><div><b>Behavior dataset</b><p>Collect and annotate representative video for selected species.</p></div></div>
-          <div class="roadmap-item"><span>03</span><div><b>Model development</b><p>Train, compare, and validate behavior-recognition approaches.</p></div></div>
-          <div class="roadmap-item"><span>04</span><div><b>Continuous monitoring</b><p>Process long-duration footage and generate behavioral timelines.</p></div></div>
-          <div class="roadmap-item"><span>05</span><div><b>Research platform</b><p>Search events, review clips, correct labels, compare animals, export data.</p></div></div>
+
+
+          <div class="roadmap-item done">
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <b>
+                Proof of concept
+              </b>
+
+              <p>
+                Video → animal detection → tracking → basic behavior.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="roadmap-item">
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <b>
+                Behavior dataset
+              </b>
+
+              <p>
+                Collect and annotate representative video for selected species.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="roadmap-item">
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <b>
+                Model development
+              </b>
+
+              <p>
+                Train, compare, and validate behavior-recognition approaches.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="roadmap-item">
+
+            <span>
+              04
+            </span>
+
+            <div>
+
+              <b>
+                Continuous monitoring
+              </b>
+
+              <p>
+                Process long-duration footage and generate behavioral timelines.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="roadmap-item">
+
+            <span>
+              05
+            </span>
+
+            <div>
+
+              <b>
+                Animal intelligence platform
+              </b>
+
+              <p>
+                Search events, review clips, compare animals, analyze
+                behavior, and export data.
+              </p>
+
+            </div>
+
+          </div>
+
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- CONTRIBUTION / CTA -->
 
     <section id="contribute" class="section cta-section">
+
       <div class="container cta">
-        <p class="eyebrow">OPEN PROJECT</p>
-        <h2>Help us teach machines to observe animals responsibly.</h2>
-        <p>
-          Researchers, zoologists, conservation organizations, developers, and
-          computer-vision researchers can contribute code, datasets, annotations,
-          validation, and scientific expertise.
+
+        <p class="eyebrow">
+          ANIMALTRACKLENS
         </p>
+
+        <h2>
+          Building technology to observe animals at scale.
+        </h2>
+
+        <p>
+          AnimalTrackLens brings together computer vision, artificial
+          intelligence, animal behavior, video analysis, and data science.
+          The project is being developed to explore practical applications
+          across wildlife, zoos, domestic animals, commercial environments,
+          conservation, and research.
+        </p>
+
+
         <div class="hero-actions">
-          <a class="button primary" href="https://github.com/ourprojectname" target="_blank" rel="noopener">Visit the GitHub project</a>
-          <a class="button secondary" href="https://github.com/ourprojectname/issues" target="_blank" rel="noopener">View issues</a>
+
+          <a
+            class="button primary"
+            href="https://github.com/dunkin2025/AnimalTrackLens"
+            target="_blank"
+            rel="noopener"
+          >
+            Visit AnimalTrackLens
+          </a>
+
+          <a
+            class="button secondary"
+            href="https://github.com/dunkin2025/AnimalTrackLens/issues"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub Issues
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- FOOTER -->
+
   <footer>
+
     <div class="container footer-inner">
-      <div><strong>Animal Behavior Detection</strong><span>Open-source research project</span></div>
-      <div class="footer-links">
-        <a href="https://github.com/ourprojectname" target="_blank" rel="noopener">GitHub</a>
-        <a href="#research">Research</a>
-        <a href="#contribute">Contribute</a>
+
+
+      <div>
+
+        <strong>
+          AnimalTrackLens
+        </strong>
+
+        <span>
+          AI-powered animal behavior technology
+        </span>
+
       </div>
-      <p>© <span id="year"></span> Animal Behavior Detection Project.</p>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://github.com/dunkin2025/AnimalTrackLens"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+        <a href="#research">
+          Research
+        </a>
+
+        <a href="#contribute">
+          Project
+        </a>
+
+      </div>
+
+
+      <p>
+        © <span id="year"></span> AnimalTrackLens.
+      </p>
+
+
     </div>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
